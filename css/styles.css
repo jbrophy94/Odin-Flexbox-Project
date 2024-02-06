@@ -12,9 +12,10 @@ a{
 }
 
 .cats{
-  width: 400px;
+  width:400px;
   border: 3px solid rgb(255, 233, 233);
-  border-radius: 12px;;
+  border-radius: 12px;
+  flex: 0 1 auto;
 }
 
 .hero{
@@ -54,6 +55,7 @@ a{
   justify-content: space-between;
   padding: 20px;
   align-items:center;
+  flex: 0 1 0;
 }
 
 .hero-section2 h2{
@@ -79,4 +81,47 @@ a{
 .hero-section2 .left-hero-content{
   width: 450px;
   padding-left: 40px;;
+}
+
+.body-section3{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.body-section3 .squares{
+  display: flex;
+  gap:30px;
+  padding: 15px;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+  align-items:center
+}
+
+.square{
+  border: 3px solid grey;
+  border-radius: 12px;
+  width:150px;
+  height:150px;
+}
+
+.item1 .square{
+  background-color: #3882F6;
+}
+
+.item2 .square{
+  background-color: palevioletred;
+}
+
+.item3 .square{
+  background-color: orangered;
+}
+
+.item4 .square{
+  background-color: gold;
 }
