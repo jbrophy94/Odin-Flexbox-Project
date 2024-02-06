@@ -2,12 +2,15 @@
 body{
   font-family: sans-serif;
   box-sizing: border-box;
+  margin:0;
+  padding: 0;
 }
 
 .main-body{
   display: flex;
   flex-direction: column;
   flex: 1 1 0
+
 }
 
 a{
@@ -201,4 +204,14 @@ a{
   border: 3px solid #F9FAF8;
 }
 
+.footer{
+  background-color: #1F2937;
+  text-align: center;
+}
 
+.footer p{
+  color: white;
+  padding:40px;
+  margin: 0;
+  flex: 0 1 0
+}
